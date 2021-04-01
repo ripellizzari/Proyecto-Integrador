@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bungee Inline", cursive;
+  color: #2BBEF5;
+}
+
+.img-principales {
+  transition: all 0.5s ease-in-out;
+  border-radius: 10px;
+}
+.img-principales .principal-rock img:hover, .img-principales .principal-movie img:hover,
+.img-principales .principal-comic img:hover {
+  filter: opacity(0.5);
+}
+
+.quienesSomos {
+  margin-top: 100px;
+}
+
+.quienesSomos h2 {
+  text-align: center;
+}
+
+.quienesSomos .iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 1.5s;
+  margin: 100px 300px 50px 300px;
+  justify-content: space-between;
+}
+
+.quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+
+#comoComprar {
+  background-image: url(media/background-palace-garden.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+#comoComprar h2 {
+  text-align: center;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+#comoComprar .retiro, #comoComprar .retiro-2 {
+  background-color: rgba(0, 0, 0, 0.589);
+}
+
+.productos-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#bigData {
+  text-align: center;
+}
+
+.big-Data-1 {
+  text-align: center;
+}
+
+.big-Data-1 h3 {
+  margin-bottom: 100px;
+}
+
+.recomendadosTd {
+  padding-left: 45px;
+  display: grid;
+}
+
+.recomendadosTd .recomendado-1, .recomendadosTd .recomendado-2,
+.recomendadosTd .recomendado-3, .recomendadosTd .recomendado-4,
+.recomendadosTd .recomendado-5 {
+  background-color: cornflowerblue;
+  border: 1px solid #2BBEF5;
+  border-radius: 10px;
+}
+
+.novedadesComics {
+  margin-top: 70px;
+}
+
+.novedadesComics h2 {
+  text-align: center;
+}
+
+.novedadesComics .img-comic {
+  display: flex;
+  justify-content: center;
+}
+
+.noticiaGamer {
+  text-align: center;
+}
+
+.noticiaGamer .img-gamer {
+  display: flex;
+  justify-content: center;
+}
+
+.recomendadosMovies .titulo-timothee {
+  display: flex;
+  justify-content: center;
+}
+
+.recomendadosMovies .img-timothee {
+  display: flex;
+  justify-content: center;
+}
+
+.recomendadosMovies .pieDefoto {
+  text-align: center;
+}
+
+.recomendadosMovies .timothee-video {
+  margin-top: 50px;
+}
+
+.galeriaFotos {
+  margin-top: 100px;
+}
+
+#contacto {
+  text-align: center;
+}
+
+.galeriaFotos {
+  margin-top: 100px;
+}
+
+.carousel-inner-1 img {
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+footer p {
+  text-align: center;
+  padding: 20px 20px 50px 29px;
+  background-color: #006083;
+}
+
+footer h2 {
+  margin-top: 50px;
+}
+
+footer .datosContacto {
+  padding: 0 0 30px 30px;
+  margin-left: 70px;
+  display: grid;
+}
+
+footer .seguinos .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+
+footer .iconoTelefono, footer .iconoMail,
+footer .iconoUbicacion, footer .comoComprar {
+  border: 1px solid #2bb3f5;
+  text-align: start;
+  padding-top: 15px;
+}
+
+/*# sourceMappingURL=style.css.map */
+
+/*# sourceMappingURL=style.css.map */
