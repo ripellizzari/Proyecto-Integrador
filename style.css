@@ -36,14 +36,14 @@ body {
     display: flex;
     object-fit: cover;
     justify-content: center;
-    transition:all 2s ease-in-out;
+    transition:all 4s ease;
     width: 100%;
     height: 400px ;
     
     
 }
 .principal-rock:hover, .principal-movie:hover, .principal-comic:hover {
-    filter: opacity(.5);
+    filter: opacity(.8);
 }
 
 .principal-rock {
@@ -72,6 +72,7 @@ body {
     width: 30%;
     height: 100%;
     margin-right: 5%;
+    padding-right: 0;
     
 }
 
