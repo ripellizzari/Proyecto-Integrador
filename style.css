@@ -174,7 +174,7 @@ iframe {
 
 /* recomendaciones */
 .recomendadosTd { 
-    padding-left: 45px;
+    padding-left: 10px;
 }
 
 .recomendadosTd {
@@ -185,8 +185,7 @@ iframe {
 .recomendado-1, .recomendado-2, .recomendado-3,
 .recomendado-4, .recomendado-5 {
 
-        background-color: cornflowerblue;
-        border: 1px solid #2BBEF5;
+        border-radius: 15px;
         text-align: center;
 }
 
@@ -302,7 +301,7 @@ footer h2 {
 /* Mobiles */
 
 
-@media (min-width:420px) {
+@media (max-width:420px) {
     iframe {
         display: none;
     }
