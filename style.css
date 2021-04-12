@@ -10,6 +10,11 @@ h2, h3, h4, h5, h6 {
     text-align: center;
 }
 
+.contenedor {
+    width: 100%;
+    background-color: brown;
+}
+
 
 /* Body */
 body { 
@@ -21,15 +26,59 @@ body {
 
     display: flex;
     justify-content: center;
-    margin: 50px;
+    margin: 5%;
     
 }
 
-/* Carrusel principal */
+/* Imagenes principales  */
 
-.carousel-inner {
-    margin-left: 20px;
+.img-principales {
+    display: flex;
+    object-fit: cover;
+    justify-content: center;
+    transition:all 2s ease-in-out;
+    width: 100%;
+    height: 400px ;
+    
+    
 }
+.principal-rock:hover, .principal-movie:hover, .principal-comic:hover {
+    filter: opacity(.5);
+}
+
+.principal-rock {
+    padding-left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+    margin-left: 5%;
+
+}
+
+.principal-movie {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+    
+
+}
+
+.principal-comic {
+    object-fit: cover;
+    overflow: hidden;
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+    
+}
+
+
+
+
+
 
 /* QUIENES SOMOS */
 .contenido {
@@ -216,9 +265,9 @@ footer h2 {
 }
 
 .datosContacto { 
-    padding-left: 28px;
+    padding-left: 0;
     padding-bottom: 30px;
-    margin-left: 70px;
+    margin-left: -27px;
 
 }
 
@@ -250,7 +299,10 @@ footer h2 {
 }
 
 
-@media only screen and (max-width:420px) {
+/* Mobiles */
+
+
+@media (min-width:420px) {
     iframe {
         display: none;
     }
@@ -258,7 +310,99 @@ footer h2 {
     .container-fluid img {
         display: none;
     }
+
+    .img-principales {
+        width:700px;
+        height: 400px;
+        display: flex;
+        object-fit:cover;
+        justify-content: center;
+        align-items: center;
+        transition:all 2s ease-in-out;
+    }
+
+    .principal-rock img {
+        width: 700px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        align-items: center;
+        overflow: visible;
+    }
+
+    .principal-movie img {
+       display: none;
+       overflow: hidden;
+    }
+
+    .principal-comic img {
+      display:none;
+      overflow:hidden;
+
+    }
+
+    .iconos {
+        display: none
+
+
 }
+
+/* Tablets */
+
+@media (max-width:768px) and (min-width:420px) {
+
+    .img-principales {
+        width:700px;
+        height: 400px;
+        display: flex;
+        object-fit:cover;
+        justify-content: center;
+        align-items: center;
+        transition:all 2s ease-in-out;
+        
+        }
+
+
+    .principal-rock img {
+       display: none;
+       overflow: hidden;
+    }
+
+    .principal-movie img {
+        width:700px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        border-radius: 15px;
+        align-items: center;
+        overflow: visible;
+        object-fit:none;
+        object-position: center;
+    
+    }
+        
+    .principal-comic img {
+       display:none;
+       overflow:hidden;
+    }
+
+
+    .iconos {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
+        transition: all 1.5s  ;
+        justify-content: space-between;
+        justify-content: space-evenly ;
+        
+    }
+}
+}
+
+
+
 
 
 
