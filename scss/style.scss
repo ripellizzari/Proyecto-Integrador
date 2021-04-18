@@ -16,7 +16,6 @@
       &:hover { 
         transition: all 0.5s ease-in-out;
         filter: opacity(.5);
-        transform: scale(2);
         transition: all 1s;
      }
     }
@@ -42,7 +41,7 @@
 
 .quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
   transform: scale(2);
-  transition: all 1sj;
+  transition: all 1s ease-in-out;
 }
 
 #comoComprar {
@@ -63,11 +62,27 @@
   background-color: rgba(0, 0, 0, 0.589);
 }
 
+
 .productos-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  h2 {
+    text-align: center;
+  }
 }
+
+.productosMusica {
+  display: flex;
+  align-items: center;
+  
+
+  p {
+  text-align: center;
+  }
+}
+
 
 #bigData {
   text-align: center;
