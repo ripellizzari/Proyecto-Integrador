@@ -6,6 +6,9 @@
   color: #2BBEF5;
 }
 
+
+
+
 .img-principales {
   transition: all 0.5s ease-in-out;
   
@@ -28,7 +31,8 @@
 .fondo-pantalla {
   background-image: url(../media/Sutil.jfif);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 .quienesSomos {
@@ -55,7 +59,8 @@
 #comoComprar {
   background-image: url(../media/background-palace-garden.jpg); 
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
 }
 
 #comoComprar h2, h4 {
@@ -73,10 +78,17 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-left: 20%;
+  margin-top: 4%;
+  
 
   h2 {
     text-align: center;
+    margin-bottom: 3%;
+  }
+
+  p {
+    text-align: center;
+    margin-bottom: 2%;
   }
 }
 
@@ -102,19 +114,23 @@
 }
 
 #recomendadosMusica {
-  background-image: url(../media/tiny-desk3.png);
+  background-image: url(../media/tiny-desk2.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   h3, h4, p {
     background-color: rgba(0, 0, 0, 0.589);
   }
 }
 
+#recomendadosMusica h3, iframe {
+margin-top: 50px;
 
+}
 
-.recomendadosTd .recomendado-1, .recomendadosTd .recomendado-2,
-.recomendadosTd .recomendado-3, .recomendadosTd .recomendado-4,
-.recomendadosTd .recomendado-5 {
+#recomendadosMusica .recomendado-1, #recomendadosMusica .recomendado-2,
+#recomendadosMusica .recomendado-3, #recomendadosMusica .recomendado-4,
+#recomendadosMusica .recomendado-5 {
   background-color: cornflowerblue;
   border: 1px solid #2BBEF5;
   border-radius: 10px;
@@ -156,7 +172,7 @@
   text-align: center;
 }
 
-.recomendadosMovies .timothee-video {
+.recomendadosMovies, .timothee-video {
   margin-top: 50px;
 }
 
@@ -181,19 +197,18 @@
 
 
 footer p {
+  font-size: large;
   text-align: center;
-  
-  background-color: #006083;
+  margin-top: 15px;
+  margin-bottom: 100px;
 }
 
-footer h2 {
-  margin-top: 50px;
+
+.iconoFb img, .iconoIg img, .iconoTw img {
+  border-radius: 15px;
 }
 
-footer .datosContacto {
- 
-  display: grid;
-}
+
 
 footer .seguinos .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
   transform: scale(2);
@@ -205,14 +220,28 @@ footer .iconoUbicacion, footer .comoComprar {
 
   text-align: start;
   padding-top: 15px;
+  border-radius: 10px;
 }
 
 .seguinos {
   margin-top: 20px;
   margin-bottom: 20px;
+  
+  
 }
 
-.datosContacto {
-  padding-left: 25px;
-}
  
+footer {
+  padding-top: 100px;
+  background-image: url(../media/robots4.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+
+  .datosContacto {
+    img {
+      border-radius: 15px;
+    }
+  }
+}
+
+
