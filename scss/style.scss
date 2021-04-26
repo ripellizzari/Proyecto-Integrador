@@ -33,7 +33,15 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+  
+  @media (max-width: 540px) {
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 }
+
 
 .quienesSomos {
   margin-top: 100px;
@@ -61,6 +69,13 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
+
+  @media (max-width: 540px) {
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 }
 
 #comoComprar h2, h4 {
@@ -121,6 +136,14 @@
   h3, h4, p {
     background-color: rgba(0, 0, 0, 0.589);
   }
+
+  @media (max-width: 540px) {
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
 }
 
 #recomendadosMusica h3, iframe {
@@ -148,6 +171,12 @@ margin-top: 50px;
   display: flex;
   justify-content: center;
 }
+
+.novedadesComics-2 {
+  display: flex; 
+  text-align: center;
+}
+
 
 .noticiaGamer {
   text-align: center;
@@ -236,6 +265,13 @@ footer {
   background-image: url(../media/robots4.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
+
+  @media (max-width: 540px) {
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
 
   .datosContacto {
     img {
