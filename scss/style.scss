@@ -6,8 +6,19 @@
   color: #2BBEF5;
 }
 
+body{ 
+   overflow-x: hidden;
+
+   section {
+    margin-bottom: 5%;
+    padding-bottom: 2%;
+  }
 
 
+
+ }
+
+ 
 
 .img-principales {
   transition: all 0.5s ease-in-out;
@@ -41,6 +52,7 @@
   }
   
 }
+
 
 
 .quienesSomos {
@@ -154,9 +166,9 @@ margin-top: 50px;
 #recomendadosMusica .recomendado-1, #recomendadosMusica .recomendado-2,
 #recomendadosMusica .recomendado-3, #recomendadosMusica .recomendado-4,
 #recomendadosMusica .recomendado-5 {
-  background-color: cornflowerblue;
-  border: 1px solid #2BBEF5;
-  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.589);
+  
+
 }
 
 .novedadesComics {
@@ -229,7 +241,7 @@ footer p {
   font-size: large;
   text-align: center;
   margin-top: 15px;
-  margin-bottom: 100px;
+  
 }
 
 
@@ -265,6 +277,7 @@ footer {
   background-image: url(../media/robots4.jpg);
   background-size: 100% 100%;
   background-attachment: fixed;
+  margin-bottom: 0;
 
   @media (max-width: 540px) {
     background-attachment: none;
@@ -280,4 +293,7 @@ footer {
   }
 }
 
-
+.datosContacto {
+  margin-left: 1%;
+  padding-bottom: 3%;
+}
