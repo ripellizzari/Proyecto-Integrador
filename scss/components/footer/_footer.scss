@@ -1,0 +1,68 @@
+
+#contacto {
+    text-align: center;
+  }
+  
+  
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+    margin-top: 15px;
+    
+  }
+  
+  
+  .iconoFb img, .iconoIg img, .iconoTw img {
+    border-radius: 15px;
+  }
+  
+  
+  
+  footer .seguinos .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
+    transform: scale(2);
+    transition: all 1s;
+  }
+  
+  footer .iconoTelefono, footer .iconoMail,
+  footer .iconoUbicacion, footer .comoComprar {
+  
+    text-align: start;
+    padding-top: 15px;
+    border-radius: 10px;
+  }
+  
+  .seguinos {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+    
+  }
+  
+   
+  footer {
+    padding-top: 100px;
+    background-image: url(../media/robots4.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 0;
+  
+    @media (max-width: 540px) {
+      background-attachment: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  
+    .datosContacto {
+      img {
+        border-radius: 15px;
+      }
+    }
+  }
+  
+  .datosContacto {
+    margin-left: 1%;
+    padding-bottom: 3%;
+  }
+  

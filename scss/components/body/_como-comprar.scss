@@ -1,0 +1,25 @@
+
+#comoComprar {
+    background-image: url(../media/background-palace-garden.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+    @media (max-width: 540px) {
+      background-attachment: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  }
+  
+  #comoComprar h2, h4 {
+    text-align: center;
+    padding: 20px;
+    color: whitesmoke;
+  }
+  
+  #comoComprar .retiro, #comoComprar .retiro-2 {
+    background-color: rgba(0, 0, 0, 0.589);
+  }
+  

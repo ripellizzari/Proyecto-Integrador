@@ -1,3 +1,4 @@
+
 * {
   margin: 0;
   padding: 0;
@@ -7,293 +8,37 @@
 }
 
 body{ 
-   overflow-x: hidden;
+  overflow-x: hidden;
 
-   section {
-    margin-bottom: 5%;
-    padding-bottom: 2%;
-  }
-
-
-
+  section {
+   margin-bottom: 5%;
+   padding-bottom: 2%;
  }
-
- 
-
-.img-principales {
-  transition: all 0.5s ease-in-out;
-  
- 
-  .principal-rock, .principal-movie,
-  .principal-comic {
-    img {
-      border-radius: 20px;
-      margin-top: 20%;
-
-      &:hover { 
-        transition: all 0.5s ease-in-out;
-        filter: opacity(.5);
-        transition: all 1s;
-     }
-    }
-  } 
-}
-
-.fondo-pantalla {
-  background-image: url(../media/Sutil.jfif);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  
-  @media (max-width: 540px) {
-    background-attachment: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
 }
 
 
 
-.quienesSomos {
-  margin-top: 100px;
-}
-
-.quienesSomos h2 {
-  text-align: center;
-}
-
-.quienesSomos .iconos {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  transition: all 1.5s;
-  justify-content: space-between;
-}
-
-.quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
-  transform: scale(2);
-  transition: all 1s ease-in-out;
-}
-
-#comoComprar {
-  background-image: url(../media/background-palace-garden.jpg); 
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-
-  @media (max-width: 540px) {
-    background-attachment: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-}
-
-#comoComprar h2, h4 {
-  text-align: center;
-  padding: 20px;
-  color: whitesmoke;
-}
-
-#comoComprar .retiro, #comoComprar .retiro-2 {
-  background-color: rgba(0, 0, 0, 0.589);
-}
-
-
-.productos-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 4%;
-  
-
-  h2 {
-    text-align: center;
-    margin-bottom: 3%;
-  }
-
-  p {
-    text-align: center;
-    margin-bottom: 2%;
-  }
-}
-
-.productosMusica {
-  display: flex;
-  align-items: center;
-  
-
-  p {
-  text-align: center;
-  }
-}
-
-
-#bigData {
-  text-align: center;
-  margin-bottom: 3%;
-}
-
-.bigData-1 h2, h3 {
-  text-align: center;
-  margin-bottom: 5%;
-}
-
-#recomendadosMusica {
-  background-image: url(../media/tiny-desk2.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  h3, h4, p {
-    background-color: rgba(0, 0, 0, 0.589);
-  }
-
-  @media (max-width: 540px) {
-    background-attachment: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
-
-}
-
-#recomendadosMusica h3, iframe {
-margin-top: 50px;
-
-}
-
-#recomendadosMusica .recomendado-1, #recomendadosMusica .recomendado-2,
-#recomendadosMusica .recomendado-3, #recomendadosMusica .recomendado-4,
-#recomendadosMusica .recomendado-5 {
-  background-color: rgba(0, 0, 0, 0.589);
-  
-
-}
-
-.novedadesComics {
-  margin-top: 70px;
-}
-
-.novedadesComics h2 {
-  text-align: center;
-}
-
-.novedadesComics .img-comic {
-  display: flex;
-  justify-content: center;
-}
-
-.novedadesComics-2 {
-  display: flex; 
-  text-align: center;
-}
-
-
-.noticiaGamer {
-  text-align: center;
-}
-
-.noticiaGamer .img-gamer {
-  display: flex;
-  justify-content: center;
-}
-
-.recomendadosMovies .titulo-timothee {
-  display: flex;
-  justify-content: center;
-}
-
-.recomendadosMovies .img-timothee {
-  display: flex;
-  justify-content: center;
-}
-
-.recomendadosMovies .pieDefoto {
-  text-align: center;
-}
-
-.recomendadosMovies, .timothee-video {
-  margin-top: 50px;
-}
-
-.galeriaFotos {
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-}
-
-#contacto {
-  text-align: center;
-}
-
-.galeriaFotos {
-  margin-top: 100px;
-
-  h2 {
-    text-align: center;
-  }
-
-}
-
-
-footer p {
-  font-size: large;
-  text-align: center;
-  margin-top: 15px;
-  
-}
-
-
-.iconoFb img, .iconoIg img, .iconoTw img {
-  border-radius: 15px;
-}
+@import '../scss/components/body/img-principales';
+@import '../scss/components/body/quienes-somos';
+@import '../scss/components/body/como-comprar';
+@import '../scss/components/body/productos/productos-container';
+  @import '../scss/components/body/productos/productos-musica';
+@import '../scss/components/body/big-data/bigData-container';
+  @import '../scss/components/body/big-data/musica';
+  @import '../scss/components/body/big-data/comics';
+  @import '../scss/components/body/big-data/peliculas-tv';
+  @import '../scss/components/body/big-data/games';
+@import '../scss/components/body/galeriaFotos';
+@import '../scss/components/footer/footer';
 
 
 
-footer .seguinos .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
-  transform: scale(2);
-  transition: all 1s;
-}
 
-footer .iconoTelefono, footer .iconoMail,
-footer .iconoUbicacion, footer .comoComprar {
 
-  text-align: start;
-  padding-top: 15px;
-  border-radius: 10px;
-}
 
-.seguinos {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  
-  
-}
 
- 
-footer {
-  padding-top: 100px;
-  background-image: url(../media/robots4.jpg);
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  margin-bottom: 0;
 
-  @media (max-width: 540px) {
-    background-attachment: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  
 
-  .datosContacto {
-    img {
-      border-radius: 15px;
-    }
-  }
-}
 
-.datosContacto {
-  margin-left: 1%;
-  padding-bottom: 3%;
-}
+
+

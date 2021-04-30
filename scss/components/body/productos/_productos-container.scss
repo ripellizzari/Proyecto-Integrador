@@ -1,0 +1,18 @@
+
+.productos-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 4%;
+    
+  
+    h2 {
+      text-align: center;
+      margin-bottom: 3%;
+    }
+  
+    p {
+      text-align: center;
+      margin-bottom: 2%;
+    }
+  }

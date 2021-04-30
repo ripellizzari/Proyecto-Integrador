@@ -1,0 +1,31 @@
+
+#recomendadosMusica {
+  background-image: url(../media/tiny-desk2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  h3, h4, p {
+    background-color: rgba(0, 0, 0, 0.589);
+  }
+
+  @media (max-width: 540px) {
+    background-attachment: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+}
+
+#recomendadosMusica h3, iframe {
+margin-top: 50px;
+
+}
+
+#recomendadosMusica .recomendado-1, #recomendadosMusica .recomendado-2,
+#recomendadosMusica .recomendado-3, #recomendadosMusica .recomendado-4,
+#recomendadosMusica .recomendado-5 {
+  background-color: rgba(0, 0, 0, 0.589);
+  
+
+}

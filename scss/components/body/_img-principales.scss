@@ -1,0 +1,34 @@
+
+.img-principales {
+    transition: all 0.5s ease-in-out;
+    
+   
+    .principal-rock, .principal-movie,
+    .principal-comic {
+      img {
+        border-radius: 20px;
+        margin-top: 20%;
+  
+        &:hover { 
+          transition: all 0.5s ease-in-out;
+          filter: opacity(.5);
+          transition: all 1s;
+       }
+      }
+    } 
+  }
+  
+  .fondo-pantalla {
+    background-image: url(../media/Sutil.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+    @media (max-width: 540px) {
+      background-attachment: none;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+  }
+  
