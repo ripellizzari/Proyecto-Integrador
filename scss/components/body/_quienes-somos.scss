@@ -1,23 +1,18 @@
 
-
 .quienesSomos {
-    margin-top: 100px;
-  }
-  
-  .quienesSomos h2, p {
-    text-align: center;
-  }
-  
-  .quienesSomos .iconos {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    transition: all 1.5s;
-    justify-content: space-between;
-    margin-left: 2%;
-  }
-  
-  .quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
-    transform: scale(2);
-    transition: all 1s ease-in-out;
-  }
+  margin-top: 100px; }
+
+.quienesSomos h2, p {
+  text-align: center; }
+
+.quienesSomos .iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transition: all 1.5s;
+  justify-content: space-between;
+   }
+
+.quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
+  transform: scale(2);
+  transition: all 1s ease-in-out; }

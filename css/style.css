@@ -45,8 +45,7 @@ body {
   flex-direction: row;
   justify-content: center;
   transition: all 1.5s;
-  justify-content: space-between;
-  margin-left: 2%; }
+  justify-content: space-between; }
 
 .quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
   transform: scale(2);
@@ -91,8 +90,7 @@ body {
 
 .Big-Data {
   text-align: center;
-  margin-bottom: 2%;
-  margin-left: 4%; }
+  margin-bottom: 1% 2% 2% 2%; }
 
 .bigData-1 h2, h3 {
   text-align: center;
