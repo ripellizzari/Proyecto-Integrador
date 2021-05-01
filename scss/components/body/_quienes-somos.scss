@@ -9,10 +9,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
-  transition: all 1.5s;
   justify-content: space-between;
    }
 
 .quienesSomos .iconoMusica:hover, .quienesSomos .iconoPeli:hover, .quienesSomos .iconoGames:hover {
   transform: scale(2);
-  transition: all 1s ease-in-out; }
+  transition: all 1s; }

@@ -4,15 +4,18 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
   h3, h4, p {
     background-color: rgba(0, 0, 0, 0.589);
   }
 
-  @media (max-width: 540px) {
-    background-attachment: none;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  // @media (max-width: 540px) {
+  //   background-attachment: fixed;
+  //   background-repeat: no-repeat;
+  //   background-size: cover;
+
+
+  // }
   
 
 }
