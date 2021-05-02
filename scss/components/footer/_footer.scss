@@ -1,7 +1,7 @@
 
    
   footer {
-    padding-top: 100px;
+    padding-top: 10%;
     background-image: url(../media/robots4.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -37,7 +37,7 @@
   
   
   
-  footer .seguinos .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
+  footer .seguinos, .iconoFb:hover,  .iconoIg:hover,  .iconoTw:hover {
     transform: scale(2);
     transition: all 1s;
   }

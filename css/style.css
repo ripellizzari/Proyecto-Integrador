@@ -170,7 +170,7 @@ body {
     text-align: center; }
 
 footer {
-  padding-top: 100px;
+  padding-top: 10%;
   background-image: url(../media/robots4.jpg);
   background-size: cover;
   background-attachment: fixed;
@@ -184,7 +184,7 @@ footer {
     margin-top: 15px; }
   footer .iconoFb img, footer .iconoIg img, footer .iconoTw img {
     border-radius: 15px; }
-  footer footer .seguinos .iconoFb:hover, footer footer .iconoIg:hover, footer footer .iconoTw:hover {
+  footer footer .seguinos, footer .iconoFb:hover, footer .iconoIg:hover, footer .iconoTw:hover {
     transform: scale(2);
     transition: all 1s; }
   footer footer .iconoTelefono, footer footer .iconoMail,
