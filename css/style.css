@@ -145,8 +145,12 @@ body {
 .recomendadosMovies, .timothee-video {
   margin-top: 50px; }
 
-.pieDefoto {
-  margin-bottom: 3%; }
+.pieDefoto h2 {
+  margin: 2%; }
+
+.timothee-video {
+  background-color: black;
+  margin: 2%; }
 
 .noticiaGamer {
   text-align: center; }
